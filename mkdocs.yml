@@ -1,11 +1,23 @@
-site_name: Jonasbp
+site_name: "@jonasbp"
 site_url: https://example.com/
-nav:
-    - Home: index.md
 theme:
     name: material
     language: pt-BR
     palette:
-        primary: white
+        primary: indigo
     icon:
-        logo: material/library
+        logo: material/book-open-outline
+    features:
+      - navigation.sections
+
+copyright: Copyright &copy; 2022 @Jonasbp
+extra:
+  generator: false
+markdown_extensions:
+  - attr_list
+pages:
+  - PROJETOS:
+    - 'PIX': 'fablab/day1.md'
+  - FABLAB:
+    - 'DAY1': 'fablab/day1.md'
+
